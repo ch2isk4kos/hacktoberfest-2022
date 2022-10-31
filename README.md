@@ -11,3 +11,11 @@ Open-source projects provide tools (applications) that are publicly accessible t
 ## Start Here
 
 If you are new to contributing to open-source projects, start here: [hacktoberfest.com](https://hacktoberfest.com).
+
+<br>
+
+## Contrbuting
+
+First read through the `CONTRIBUTING.md` file to get better acquainted with this repository.
+Then, feel free to jump right in and contribute to the project however you see fit.
+If you have any questions or need help of any kind, don't hesitate to reach out. Have fun!
