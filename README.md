@@ -6,4 +6,8 @@ This is a public repository to help people get started with contributing to open
 
 Open-source projects provide tools (applications) that are publicly accessible to use for free.
 
+<br>
+
+## Start Here
+
 If you are new to contributing to open-source projects, start here: [hacktoberfest.com](https://hacktoberfest.com).
