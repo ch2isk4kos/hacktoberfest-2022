@@ -14,7 +14,7 @@ If you are new to contributing to open-source projects, start here: [hacktoberfe
 
 <br>
 
-## Contrbuting
+## Contributing
 
 First read through the `CONTRIBUTING.md` file to get better acquainted with this repository.
 Then, feel free to jump right in and contribute to the project however you see fit.
