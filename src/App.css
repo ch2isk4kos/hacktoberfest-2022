@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,133 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
+
+/* NOTE: BOOTSTRAP USES rem OVER px for images */
+
+* {
+  font-family: "Comfortaa", sans-serif;
+  /* background-color: black; */
+}
+
+/* html,
+body {
+  height: 100%;
+  width: 100vw;
+} */
+
+/* PARTICLES */
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* z-index: 1; */
+}
+
+/* NAVBAR */
+/* logo */
+.navbar .navbar-brand {
+  margin-left: 2rem;
+}
+#logo {
+  /* width: 16.25rem; */
+  width: 5rem;
+}
+#logo:hover {
+  filter: brightness(500%);
+}
+/* navbar items */
+.navbar .navbar-nav {
+  margin-right: 3.5rem;
+}
+.navbar .navbar-nav a.nav-link {
+  margin: 0 0.4rem;
+  border-top: 0.1875rem solid #0e6efd;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.navbar .navbar-nav a.nav-link:hover {
+  color: white;
+}
+.navbar .navbar-nav a.nav-link:focus {
+  border-top: 0.1875rem solid white;
+  color: white;
+}
+
+/* HEADER */
+.header-wrapper {
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1577401239170-897942555fb3")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.header-wrapper .main-info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 5rem 0 0 2.5rem;
+  /* padding: 0 6.25rem 0 6.25rem; */
+  border: 0.1875rem solid #0e6efd;
+  background-color: black;
+}
+/* name */
+.header-wrapper .main-info h1 {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+}
+/* typed text */
+.header-wrapper .main-info .typed-text {
+  margin-left: 0.2rem;
+  font-size: 2.5rem;
+  color: #0e6efd;
+}
+/* description */
+.header-wrapper .main-info p {
+  margin-left: 0.2rem;
+  font-size: 1.1em;
+  font-weight: 400;
+  max-width: 700px;
+}
+/* button */
+.header-wrapper .main-info .main-button {
+  width: 8rem;
+  margin-left: 0.2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.header-wrapper .main-info .main-button:hover {
+  background-color: crimson;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .particles {
+    display: none;
+  }
+  .header-wrapper .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .header-wrapper .main-info .typed-text {
+    font-size: 1.3rem !important;
+  }
+  .header-wrapper .main-info p {
+    margin-left: 0.2rem !important;
+    font-size: 0.5em;
   }
 }
