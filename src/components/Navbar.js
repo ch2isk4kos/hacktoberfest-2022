@@ -1,16 +1,23 @@
 import React from "react";
+import Logo from "../assets/hacktoberfest-logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="https://github.com">
-          <img
+          {/* <img
             id="logo"
             src="https://cdn.pixabay.com/photo/2012/04/11/00/10/math-27248_960_720.png"
             alt="Gopher"
+          /> */}
+          <img
+            id="logo"
+            // src={require("../../public/hacktoberfest-logo.png")}
+            src={Logo}
+            alt="Hacktoberfest 2022 Logo"
           />
         </a>
         <button
@@ -44,7 +51,7 @@ const Navbar = () => {
               <a
                 className="nav-link"
                 aria-current="page"
-                href="https://github.com/ch2isk4kos?tab=repositories"
+                href="https://github.com/topics/hacktoberfest"
                 target="_blank"
                 rel="noreferrer"
               >
