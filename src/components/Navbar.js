@@ -32,26 +32,48 @@ const Navbar = () => {
           {/* <ul className="navbar-nav me-auto mb-2 mb-lg-0"> */}
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
+              <a
+                className="nav-link"
+                aria-current="page"
+                href="http://localhost:3000/"
+              >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
+              <a
+                className="nav-link"
+                aria-current="page"
+                href="https://github.com/ch2isk4kos?tab=repositories"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
+              <a
+                className="nav-link"
+                aria-current="page"
+                href="https://github.com/ch2isk4kos/hacktoberfest-2022"
+                target="_blank"
+                rel="noreferrer"
+              >
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                aria-current="page"
+                href="https://www.twitter.com/ch2isk4kos"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Contact
               </a>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -82,7 +104,7 @@ const Navbar = () => {
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
