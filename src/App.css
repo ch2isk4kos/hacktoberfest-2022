@@ -62,15 +62,20 @@ body {
 
 /* NAVBAR */
 /* logo */
+.navbar {
+  /* background-color: #201829; */
+  background-color: #261f2d;
+}
+
 .navbar .navbar-brand {
   margin-left: 2rem;
 }
 #logo {
   /* width: 16.25rem; */
-  width: 5rem;
+  width: 7rem;
 }
 #logo:hover {
-  filter: brightness(500%);
+  /* filter: brightness(500%); */
 }
 /* navbar items */
 .navbar .navbar-nav {
